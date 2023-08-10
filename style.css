@@ -30,8 +30,16 @@
   background-size: 100%;
 }
 .hero h1 {
-  align-items: center;
+  font-size: 50px;
+  font-weight: 800;
   font-family: "Fraunces", serif;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 70px;
+  color: white;
+}
+.hero-img {
+  padding-left: 640px;
 }
 /*---------about-section---------*/
 .about-content {
@@ -43,6 +51,9 @@
 .about-image {
   margin: 0px;
   padding: 0px;
+}
+.about-image img {
+  width: 100%;
 }
 .about-box-1 {
   height: 600px;
@@ -112,4 +123,94 @@
   color: black;
   font-weight: 600;
   letter-spacing: 3px;
+}
+/*-------testimonial-section--------*/
+.testimonial {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.testimonial h2 {
+  text-align: center;
+  font-size: 22px;
+  color: hsl(213, 9%, 39%);
+  font-weight: 800;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 80px;
+}
+.testimoni-content {
+}
+.testimoni-img {
+  display: flex;
+  justify-content: center;
+}
+.testimoni-img img {
+  border-radius: 100px;
+  margin-bottom: 40px;
+}
+.testimoni-content h6 {
+  text-align: center;
+  color: black;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+.testimoni-content h5 {
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+}
+.testimoni-content p {
+  text-align: center;
+  color: hsl(213, 9%, 39%);
+  font-size: 16px;
+  font-weight: 500;
+}
+/*------gallery-section------*/
+.gallery-img {
+  margin: 0px;
+  padding: 0px;
+}
+.gallery-img img {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+/*-------------footer-section-----------*/
+#footer-section {
+  background-color: hsl(168, 63%, 54%);
+}
+#footer-section h2 {
+  text-align: center;
+  padding-top: 80px;
+  padding-right: 40px;
+  font-size: 40px;
+  font-weight: 700;
+  color: hsl(167, 40%, 24%);
+  letter-spacing: 4px;
+}
+.footer-menu {
+  justify-content: center;
+  margin-top: 30px;
+}
+.menu a {
+  text-decoration: none;
+  color: hsl(167, 40%, 24%);
+  padding-right: 50px;
+  letter-spacing: 3px;
+}
+.footer-social {
+  justify-content: center;
+  margin-top: 70px;
+  padding-bottom: 70px;
+}
+.attribution {
+  padding-bottom: 6px;
+}
+.attribution a {
+  text-decoration: none;
+  color: white;
+  letter-spacing: 2px;
+  padding-right: 20px;
 }
